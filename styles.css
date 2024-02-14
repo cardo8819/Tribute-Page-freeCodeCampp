@@ -114,8 +114,9 @@ cite{
 }
 
 #link{
-    text-align: center;
+    padding-left: 16px;
     margin: 0 auto;
+    max-width: 800px;
 }
 
 @media screen and (max-width: 450px) {
@@ -133,5 +134,8 @@ cite{
     }
     blockquote#quote{
         padding: 10px 0;
+    }
+    #link{
+        padding-left: 0;
     }
 }
